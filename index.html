@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ant's Code Quiz</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
+  ></script>
+</head>
+<body>
+    <div id="header">
+        <section id="title">
+            <h1>Code Quiz</h1>
+            <p>Today's Date is: <span id="date"></span></p>
+        </section>
+        <section id="timerspace"><label id="timer"></label></section>
+        <section id="scoreboard"><label id="points"></label></section>
+    </div>
+    <main id="quiz">
+            <label id="question"></label>
+            <p id="problem">In this Quiz, Questions will appear in a multiple-choice fashion. Upon, pressing start a 1-minute timer will commence in the place of today's date. While the timer runs, you are to answer as many question as you can. Each incorrect answer will result in a lose of 3 seconds. When the timer hits 0, you're score will be presented along with an option to place your initials on the scoreboard. Hit start to begin. Good Luck!</p>
+            <div id= choices>
+                <button id="A" value="A" onclick="this.blur();">This is Answer A</button>
+                <button id="B" value="B" onclick="this.blur();">This is Answer B</button>
+                <button id="C" value="C" onclick="this.blur();">This is Answer C</button>
+                <button id="D" value="D" onclick="this.blur();">This is Answer D</button>
+            </div>
+        <button id="Start">Start</button>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html> 
