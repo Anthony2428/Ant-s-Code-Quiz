@@ -31,39 +31,39 @@ const Question1 = {
 };
 const Question2 = {
     name: 'Question 2',
-    answer: ["Baseball", "Hockey", "Basketball", "Football"],
-    question: 'What sport do you want?',
+    answer: ["show('Hello World')", "prompt('Hello World')", "alert('Hello World')", "console.log('Hello World')"],
+    question: 'How do you present information in the console?',
     correct: "D",
 };
 const Question3 = {
     name: 'Question 3',
-    answer: ["Apple", "Banana", "Oranges", "Grapes"],
-    question: 'What fruit do you want.',
+    answer: ["const myArray = []", "myArray = {}", "const myArray = 1,2,3", "myArray = 1,2,3"],
+    question: 'What is the correct way to declare an array?',
     correct: "A",
 };
 const Question4 = {
     name: 'Question 4',
-    answer: ["Apple", "Banana", "Oranges", "Grapes"],
-    question: 'What fruit do you want.',
+    answer: ["Yes", "JS can only manipulate HTML", "No", "What's CSS?"],
+    question: 'Can JS manipulate and change CSS styles?',
     correct: "A",
 };
 const Question5 = {
     name: 'Question 5',
-    answer: ["Apple", "Banana", "Oranges", "Grapes"],
-    question: 'What fruit do you want.',
+    answer: ["Jerry Springer on Nickelodeon", "JavaScript on Ninjas", "JavaScript Object Notation", "Jay's son"],
+    question: 'JSON stands for what?',
     correct: "C",
 };
 const Question6 = {
     name: 'Question 6',
-    answer: ["Apple", "Banana", "Oranges", "Grapes"],
-    question: 'What fruit do you want.',
+    answer: ["const myObj = make: '2', model: '3'", "myObj = 1, 2, 3,", "myObj = []", "const myObj = {}"],
+    question: 'What is the correct way to declare an object?',
     correct: "D",
 };
 const Question7 = {
     name: 'Question 7',
-    answer: ["Apple", "Banana", "Oranges", "Grapes"],
-    question: 'What fruit do you want.',
-    correct: "C",
+    answer: ["Global Variable", "Parameter", "Integer", "Object"],
+    question: 'When a variable is passed into a function, it\'s called a?',
+    correct: "B",
 };
 const Question8 = {
     name: 'Question 8',
@@ -73,15 +73,15 @@ const Question8 = {
 };
 const Question9 = {
     name: 'Question 9',
-    answer: ["Apple", "Banana", "Oranges", "Grapes"],
-    question: '',
-    correct: "C",
+    answer: ["False", "Equal to 1", "Equal to 0", "True"],
+    question: 'If statements run as long as a condition is?',
+    correct: "D",
 };
 const Question10 = {
     name: 'Question 10',
-    answer: ["Apple", "Banana", "Oranges", "Grapes"],
-    question: 'What fruit do you want.',
-    correct: "C",
+    answer: ["A Program", "A Programming Language", "A Dictionary", "A Library"],
+    question: 'What is JavaScript',
+    correct: "B",
 };
 
 //Places all questions into one bucket
