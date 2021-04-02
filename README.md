@@ -12,7 +12,7 @@ Upon hitting the time limit or answering every question correctly, the user is p
 
 ![Screenshot of Web App:](./assets/Code-Quiz-Screenshot.png)
 
-GITHUB URL: https://github.com/Anthony2428/Ant-s-Code-Quiz/
+GITHUB URL: https://github.com/Anthony2428/Ant-s-Code-Quiz/</br>
 Deploymeny URL: https://anthony2428.github.io/Ant-s-Code-Quiz/</br></br>
 
 # User Story
